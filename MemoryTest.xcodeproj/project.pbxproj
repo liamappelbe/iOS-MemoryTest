@@ -18,6 +18,7 @@
 		C30D8A622A1E6EAB00C96B35 /* MemoryTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30D8A612A1E6EAB00C96B35 /* MemoryTestTests.m */; };
 		C30D8A6C2A1E6EAB00C96B35 /* MemoryTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30D8A6B2A1E6EAB00C96B35 /* MemoryTestUITests.m */; };
 		C30D8A6E2A1E6EAB00C96B35 /* MemoryTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30D8A6D2A1E6EAB00C96B35 /* MemoryTestUITestsLaunchTests.m */; };
+		C30D8A7F2A1E6FFD00C96B35 /* foo.c in Sources */ = {isa = PBXBuildFile; fileRef = C30D8A7E2A1E6FFD00C96B35 /* foo.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		C30D8A672A1E6EAB00C96B35 /* MemoryTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30D8A6B2A1E6EAB00C96B35 /* MemoryTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryTestUITests.m; sourceTree = "<group>"; };
 		C30D8A6D2A1E6EAB00C96B35 /* MemoryTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C30D8A7D2A1E6FFD00C96B35 /* foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = foo.h; sourceTree = "<group>"; };
+		C30D8A7E2A1E6FFD00C96B35 /* foo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = foo.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				C30D8A422A1E6EAA00C96B35 /* AppDelegate.h */,
 				C30D8A432A1E6EAA00C96B35 /* AppDelegate.m */,
+				C30D8A7D2A1E6FFD00C96B35 /* foo.h */,
+				C30D8A7E2A1E6FFD00C96B35 /* foo.c */,
 				C30D8A452A1E6EAA00C96B35 /* DocumentBrowserViewController.h */,
 				C30D8A462A1E6EAA00C96B35 /* DocumentBrowserViewController.m */,
 				C30D8A482A1E6EAA00C96B35 /* DocumentViewController.h */,
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30D8A7F2A1E6FFD00C96B35 /* foo.c in Sources */,
 				C30D8A582A1E6EAB00C96B35 /* main.m in Sources */,
 				C30D8A4D2A1E6EAA00C96B35 /* Document.m in Sources */,
 				C30D8A472A1E6EAA00C96B35 /* DocumentBrowserViewController.m in Sources */,
@@ -448,6 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGAF77B4L2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoryTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -456,12 +463,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = none.MemoryTest;
+				PRODUCT_BUNDLE_IDENTIFIER = sdfhljasdfjkldsfgkljgdfklj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,6 +483,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGAF77B4L2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoryTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -483,12 +492,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = none.MemoryTest;
+				PRODUCT_BUNDLE_IDENTIFIER = sdfhljasdfjkldsfgkljgdfklj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

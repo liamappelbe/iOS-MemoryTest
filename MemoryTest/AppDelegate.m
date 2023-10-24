@@ -9,6 +9,7 @@
 #import "DocumentBrowserViewController.h"
 #import "DocumentViewController.h"
 #import "Document.h"
+#import "foo.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    foo();
+    
     return YES;
 }
 
